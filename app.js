@@ -45,3 +45,8 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 })
+
+function bodyLoad(){
+   var card= document.querySelector(".card");
+   card.style.background="linear-gradient(90deg, #ffe082 , #fff8e1)";
+}
